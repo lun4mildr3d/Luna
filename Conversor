@@ -1,0 +1,33 @@
+Conversor 
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner G = new Scanner(System.in);
+		double gf;
+		
+		System.out.println("Ingresa los grados celcius a convertir: ");
+		double gc = G.nextFloat();
+		gf = (gc * 1.8) + 32;
+		System.out.println(gc+"°C son iguales a: "+gf+"°F.");
+	}
+}
+
+5- Metros a pies.
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner M = new Scanner(System.in);
+		double f;
+		
+		System.out.println("Ingresa los metros a convertir: ");
+		double m = M.nextDouble();
+		f = m * 3.281;
+		System.out.println(m+"m son iguales a: "+f+"ft");
+	}
+}
